@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*
+{
+  margin: 0;
+  font-family: Roboto ,sans-sarif;
+}
+.container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width:77.2%;
+  background-color: #101010;
+  margin: 0.6em 0 0 0;
+  border-radius: 6px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 1em;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.container-icon
+{
+  color: #090909;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75px;
+  
+}
+.icon
+{
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.icon:hover
+{
+  opacity: 0.8;
+}
+.container-two
+{
+  display: flex;
+  font-size: 1.125rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 240px;
+}
+
+.signup
+{
+  color: #a5a5a5;
+  text-decoration: none;
+}
+.signup:hover
+{
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login
+{
+  background-color: #ffffff;
+  padding: 15px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 40px;
+  width: 75px;
+  text-align: center;
+}
+.login:hover
+{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+

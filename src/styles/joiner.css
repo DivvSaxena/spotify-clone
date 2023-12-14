@@ -1,0 +1,19 @@
+.joiner-flexer
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: black;
+  height: 100vh;
+}
+
+.sidebar-joiner
+{
+  width: 25%;
+  
+}
+
+.pannelone-joiner
+{
+  width: 75%;
+}

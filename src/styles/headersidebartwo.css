@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Spotify';
+  src: url('../fonts/GothamMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header-sidebar-two
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  0.313em 0.625em 0.125em;
+  background-color: #1f1e1e;
+  border-radius: 5px;
+  font-family: 'Spotify';
+}
+
+.header-sub-sidebar-two
+{
+  display: flex;
+  align-items: center;
+  width: 46%;
+  justify-content: space-between;
+  background-color: #1f1e1e;
+}
+
+.header-sub-sidebar-two > h2
+{
+  font-size: 1.15rem;
+}
+
+.header-sidebar-two-icon
+{
+  font-size: 1.7rem;
+}
+.header-sidebar-two-icon-plus
+{
+  font-size: 1.5rem;
+  opacity: 0.5;
+  padding:8px;
+}
+
+.header-sidebar-two-icon-plus:hover
+{
+  cursor: pointer;
+  background-color: #151515;
+  border-radius: 50%;
+  opacity: 0.8;
+}
