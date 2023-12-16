@@ -14,11 +14,12 @@
   padding: 1.7em 1.6em 1.7em 1.858em;
   padding-top: 5rem;
   padding-bottom: 2.5rem;
-  height: 549px;
+  height: 600px;
   float:left;
   overflow-y : scroll;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  width: 100%;
 }
 
 

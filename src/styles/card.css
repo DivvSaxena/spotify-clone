@@ -20,10 +20,11 @@
 
 .container-card-img
 {
-  border: 2px solid wheat;
   width: 120px;
   height: 120px;
+  border-radius: 5px;
   margin:  0 15px 15px;
+  background-size: cover;
 }
 .container-card > h3
 {
