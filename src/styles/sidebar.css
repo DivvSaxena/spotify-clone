@@ -5,6 +5,8 @@
   font-style: normal;
 }
 
+
+
 .side-pannel
 {
   width: 19.5%;
@@ -15,7 +17,7 @@
 .container-sidebar-one
 {
   width: 93.5%;
-  height: 170px;
+  height: 160px;
   background: #121212;
   color: #ffffff;
   padding: 0.625em;
@@ -84,7 +86,7 @@
 .container-sidebar-two
 {
   width: auto;
-  height: 522px;
+  height: 485px;
   background: #121212;
   color: #ffffff;
   border-radius: 10px;
@@ -194,3 +196,11 @@
   padding-left: 3px;
 }
 
+
+/*Media Queries*/
+@media (max-width:426px) {
+  .side-pannel
+  {
+    display: none;
+  }
+}

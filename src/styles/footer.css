@@ -58,7 +58,6 @@ a:hover
   font-size: 2rem;
   width:180px;
   display: flex;
-  
   justify-content: space-around;
 }
 
@@ -82,4 +81,19 @@ a:hover
   padding-left: 35px;
   padding-bottom: 90px;
   
+}
+
+
+@media (max-width:426px) {
+  .container-footer-two
+  {
+    padding: 15px;
+    height: 80px;
+    font-size: 2rem;
+    width:180px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 9em;
+  }
 }

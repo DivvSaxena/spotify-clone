@@ -7,6 +7,7 @@ import "../styles/section.css"
 
 
 const Section = () => {
+  
   const cards = data.map(item => {
     return (
       <Card 
@@ -24,8 +25,8 @@ const Section = () => {
 
   return (
     <>
-      <Header />
       <div className='section-container'>
+        <Header />
         <h1>Zzzzzz</h1>
         <div className='container-section-one'>
           {cards}

@@ -34,14 +34,14 @@ const Footer = () => {
             </ul>
           </div>
           <div className='container-footer-two'>
-            <AiOutlineInstagram className='container-footer-two-icon'/>
-            <SlSocialTwitter className='container-footer-two-icon'/>
-            <BsFacebook className='container-footer-two-icon'/>
+            <a href='https://www.instagram.com/divvsaxena/'><AiOutlineInstagram className='container-footer-two-icon'/></a>
+            <a href='https://twitter.com/Divvstwt'><SlSocialTwitter className='container-footer-two-icon'/></a>
+            <a href='#'><BsFacebook className='container-footer-two-icon'/></a>
           </div>
         </div>
         <div className="horizontal-line"></div>
         <div className='container-footer-last'>
-          <p>© 2023 Spotify AB</p>
+          <p>© 2023 Divv Saxena</p>
         </div>
       </div>
     </>
