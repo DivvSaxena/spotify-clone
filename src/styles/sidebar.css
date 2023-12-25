@@ -17,7 +17,7 @@
 .container-sidebar-one
 {
   width: 93.5%;
-  height: 160px;
+  height: 180px;
   background: #121212;
   color: #ffffff;
   padding: 0.625em;
@@ -86,7 +86,7 @@
 .container-sidebar-two
 {
   width: auto;
-  height: 485px;
+  height: 700px;
   background: #121212;
   color: #ffffff;
   border-radius: 10px;
